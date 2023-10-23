@@ -14,13 +14,14 @@ h1{
     margin: 0;
     text-align: center;
     font-family: 'Playpen Sans', cursive;
+    margin: 3px;
 }
 h2{
     color: black;
     font-family: 'Playpen Sans', cursive;
     font-size: 20px;
     padding: 0px;
-    margin: 0;
+    margin: 3px;
     text-align: center;
     }
 
@@ -35,7 +36,8 @@ p{
     text-align: justify;
     font-family: 'Playpen Sans', cursive;
     width: 1600px;
-    transform: translate(0px, 25px);
+    transform: translate(5px, 25px);
+    margin: 3px;
 
 }
 footer{
@@ -74,3 +76,32 @@ footer{
     font-family: 'Playpen Sans', cursive;
 }
 
+/*Diseño responsive*/
+/*Diseño responsive phones*/
+@media(min-width: 576px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+} 
+/*Diseño responsive tablets*/
+@media(min-width: 768px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
+/*Diseño responsive desktop*/
+@media(min-width: 992px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
+/*Diseño responsive large desktop*/
+@media(min-width: 1200px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
